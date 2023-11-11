@@ -38,6 +38,7 @@
 /* Begin PBXFileReference section */
 		4836535E2AFF8A0500120E09 /* ImagePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlace.swift; sourceTree = "<group>"; };
 		483653602AFFACCE00120E09 /* DirectoryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryResult.swift; sourceTree = "<group>"; };
+		483653622B00008E00120E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		484AFE1C2AFED5D200DB4763 /* InfranMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfranMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfranMacApp.swift; sourceTree = "<group>"; };
 		484AFE212AFED5D200DB4763 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		484AFE1E2AFED5D200DB4763 /* InfranMac */ = {
 			isa = PBXGroup;
 			children = (
+				483653622B00008E00120E09 /* Info.plist */,
 				484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */,
 				484AFE212AFED5D200DB4763 /* ContentView.swift */,
 				484AFE232AFED5D300DB4763 /* Assets.xcassets */,
@@ -428,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = InfranMac/InfranMac.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
@@ -439,6 +442,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfranMac/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = InfranMac/InfranMac.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
@@ -469,6 +474,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfranMac/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
