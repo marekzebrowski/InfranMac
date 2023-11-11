@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4836535F2AFF8A0500120E09 /* ImagePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4836535E2AFF8A0500120E09 /* ImagePlace.swift */; };
+		483653612AFFACCE00120E09 /* DirectoryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483653602AFFACCE00120E09 /* DirectoryResult.swift */; };
 		484AFE202AFED5D200DB4763 /* InfranMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */; };
 		484AFE222AFED5D200DB4763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE212AFED5D200DB4763 /* ContentView.swift */; };
 		484AFE242AFED5D300DB4763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484AFE232AFED5D300DB4763 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		4836535E2AFF8A0500120E09 /* ImagePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlace.swift; sourceTree = "<group>"; };
+		483653602AFFACCE00120E09 /* DirectoryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryResult.swift; sourceTree = "<group>"; };
 		484AFE1C2AFED5D200DB4763 /* InfranMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfranMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfranMacApp.swift; sourceTree = "<group>"; };
 		484AFE212AFED5D200DB4763 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		484AFE132AFED5D200DB4763 = {
 			isa = PBXGroup;
 			children = (
+				483653602AFFACCE00120E09 /* DirectoryResult.swift */,
 				4836535E2AFF8A0500120E09 /* ImagePlace.swift */,
 				484AFE1E2AFED5D200DB4763 /* InfranMac */,
 				484AFE302AFED5D300DB4763 /* InfranMacTests */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483653612AFFACCE00120E09 /* DirectoryResult.swift in Sources */,
 				484AFE222AFED5D200DB4763 /* ContentView.swift in Sources */,
 				484AFE202AFED5D200DB4763 /* InfranMacApp.swift in Sources */,
 				4836535F2AFF8A0500120E09 /* ImagePlace.swift in Sources */,
@@ -432,6 +436,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InfranMac/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -461,6 +466,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InfranMac/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
