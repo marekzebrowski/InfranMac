@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-
+import os
 class ImagePlace: ObservableObject {
     @Published var image: NSImage?
     var imageFiles: [URL] = []
@@ -16,6 +16,7 @@ class ImagePlace: ObservableObject {
     func loadImg(url:URL) {
         do {let data = try Data(contentsOf: url)
             let img = NSImage(dataIgnoringOrientation: data)
+            Logger.events.info("Loading file \(url.lastPathComponent, privacy: .public) index \(self.current+1, privacy: .public) of \(self.imageFiles.count, privacy: .public)")
             image = img
         } catch {
         }
@@ -31,7 +32,7 @@ class ImagePlace: ObservableObject {
     }
     
     func prev() {
-        if(current <= 1 ) {
+        if(current < 1 ) {
             return
         } else {
             current = current - 1

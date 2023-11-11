@@ -24,7 +24,8 @@ struct ContentView: View {
                 Text("No image")
             }
         }
-    }    
+    }
+    
 }
 
 #Preview {

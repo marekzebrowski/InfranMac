@@ -16,6 +16,7 @@
 		484AFE322AFED5D300DB4763 /* InfranMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE312AFED5D300DB4763 /* InfranMacTests.swift */; };
 		484AFE3C2AFED5D300DB4763 /* InfranMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE3B2AFED5D300DB4763 /* InfranMacUITests.swift */; };
 		484AFE3E2AFED5D300DB4763 /* InfranMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE3D2AFED5D300DB4763 /* InfranMacUITestsLaunchTests.swift */; };
+		4857227D2B003496009E26E8 /* InfraLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857227C2B003496009E26E8 /* InfraLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		484AFE372AFED5D300DB4763 /* InfranMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfranMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484AFE3B2AFED5D300DB4763 /* InfranMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfranMacUITests.swift; sourceTree = "<group>"; };
 		484AFE3D2AFED5D300DB4763 /* InfranMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfranMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4857227C2B003496009E26E8 /* InfraLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfraLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		484AFE132AFED5D200DB4763 = {
 			isa = PBXGroup;
 			children = (
+				4857227C2B003496009E26E8 /* InfraLogger.swift */,
 				483653602AFFACCE00120E09 /* DirectoryResult.swift */,
 				4836535E2AFF8A0500120E09 /* ImagePlace.swift */,
 				484AFE1E2AFED5D200DB4763 /* InfranMac */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				483653612AFFACCE00120E09 /* DirectoryResult.swift in Sources */,
+				4857227D2B003496009E26E8 /* InfraLogger.swift in Sources */,
 				484AFE222AFED5D200DB4763 /* ContentView.swift in Sources */,
 				484AFE202AFED5D200DB4763 /* InfranMacApp.swift in Sources */,
 				4836535F2AFF8A0500120E09 /* ImagePlace.swift in Sources */,
@@ -420,6 +424,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
