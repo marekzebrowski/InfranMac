@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var image: ImagePlace
+
+    init(model: ImagePlace) {
+        image = model
+    }
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if let i = self.image.image {
+                Image(nsImage: i)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            } else {
+                Text("No image")
+            }
         }
-        .padding()
-    }
+    }    
 }
 
 #Preview {
-    ContentView()
+    ContentView(model: ImagePlace())
 }

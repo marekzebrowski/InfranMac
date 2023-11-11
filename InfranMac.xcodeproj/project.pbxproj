@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4836535F2AFF8A0500120E09 /* ImagePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4836535E2AFF8A0500120E09 /* ImagePlace.swift */; };
 		484AFE202AFED5D200DB4763 /* InfranMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */; };
 		484AFE222AFED5D200DB4763 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AFE212AFED5D200DB4763 /* ContentView.swift */; };
 		484AFE242AFED5D300DB4763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484AFE232AFED5D300DB4763 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4836535E2AFF8A0500120E09 /* ImagePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlace.swift; sourceTree = "<group>"; };
 		484AFE1C2AFED5D200DB4763 /* InfranMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfranMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfranMacApp.swift; sourceTree = "<group>"; };
 		484AFE212AFED5D200DB4763 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		484AFE132AFED5D200DB4763 = {
 			isa = PBXGroup;
 			children = (
+				4836535E2AFF8A0500120E09 /* ImagePlace.swift */,
 				484AFE1E2AFED5D200DB4763 /* InfranMac */,
 				484AFE302AFED5D300DB4763 /* InfranMacTests */,
 				484AFE3A2AFED5D300DB4763 /* InfranMacUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				484AFE222AFED5D200DB4763 /* ContentView.swift in Sources */,
 				484AFE202AFED5D200DB4763 /* InfranMacApp.swift in Sources */,
+				4836535F2AFF8A0500120E09 /* ImagePlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,10 +425,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = InfranMac/InfranMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InfranMac/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -435,6 +442,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = inti.InfranMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -446,10 +454,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = InfranMac/InfranMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InfranMac/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -460,6 +471,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = inti.InfranMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
