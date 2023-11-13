@@ -82,9 +82,6 @@
 		484AFE132AFED5D200DB4763 = {
 			isa = PBXGroup;
 			children = (
-				4857227C2B003496009E26E8 /* InfraLogger.swift */,
-				483653602AFFACCE00120E09 /* DirectoryResult.swift */,
-				4836535E2AFF8A0500120E09 /* ImagePlace.swift */,
 				484AFE1E2AFED5D200DB4763 /* InfranMac */,
 				484AFE302AFED5D300DB4763 /* InfranMacTests */,
 				484AFE3A2AFED5D300DB4763 /* InfranMacUITests */,
@@ -105,6 +102,9 @@
 		484AFE1E2AFED5D200DB4763 /* InfranMac */ = {
 			isa = PBXGroup;
 			children = (
+				4857227C2B003496009E26E8 /* InfraLogger.swift */,
+				483653602AFFACCE00120E09 /* DirectoryResult.swift */,
+				4836535E2AFF8A0500120E09 /* ImagePlace.swift */,
 				483653622B00008E00120E09 /* Info.plist */,
 				484AFE1F2AFED5D200DB4763 /* InfranMacApp.swift */,
 				484AFE212AFED5D200DB4763 /* ContentView.swift */,
